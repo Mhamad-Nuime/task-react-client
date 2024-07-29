@@ -1,0 +1,33 @@
+.wrapper{
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.success-message{
+  margin: auto;
+  width:fit-content;
+  box-sizing: border-box;
+  padding: 15px;
+  background-color: green;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0px 0px 1px rgb(81, 81, 81);
+  
+}
+.fail-message{
+  margin: auto;
+  width:fit-content;
+  box-sizing: border-box;
+  padding: 15px;
+  background-color: red;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0px 0px 1px rgb(81, 81, 81);
+}
+.button{
+  display: inline-block;
+  margin: 30px;
+  width: fit-content;
+}
